@@ -1,0 +1,8 @@
+springboottut\standard\Standard.class
+springboottut\school\School.class
+springboottut\standard\StandardController.class
+springboottut\status\StatusController.class
+springboottut\school\SchoolService.class
+springboottut\school\SchoolController.class
+springboottut\RestAPI.class
+springboottut\school\SchoolRepository.class
