@@ -6,12 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="io.jandora.springboottut" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboottut" target="1.8" />
     </bytecodeTargetLevel>
+=======
+        <module name="springboottut" />
+        <module name="io.jandora.springboottut" />
+      </profile>
+    </annotationProcessing>
+>>>>>>> ade1061... pushing to have troubleshooting done
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
