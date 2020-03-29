@@ -13,6 +13,7 @@ public class School {
     private String name;
     private String principle;
     private String address;
+    private String location;
 
     public School() {
 
@@ -50,11 +51,16 @@ public class School {
         this.address = address;
     }
 
-    public School(long id, String name, String principle, String address) {
+    public String getLocation() { return location; }
+
+    public void setLocation(String location) { this.location = location; }
+
+    public School(long id, String name, String principle, String address, String location) {
         super();
         this.id = id;
         this.name = name;
         this.principle = principle;
         this.address = address;
+        this.location = location;
     }
 }
